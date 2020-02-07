@@ -1,9 +1,64 @@
 /* ----------------ESTILOS GLOBALES--------------- */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
 * {
     margin: 0;
     padding: 0;
     border: 0;
     outline: 0;
+}
+/* ----------------------------------------------- */
+
+/* ----------------HEADER--------------- */
+.Header {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: 77px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+.Header__logo {
+    width: 120px;
+    display: flex;
+    justify-content: center;
+}
+.Header__logo figure {
+    width: 80px;
+    height: 31px;
+}
+.Header__nav ul {
+    display: flex;
+    list-style: none;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+.Header__nav ul li {
+    line-height: 77px;
+    padding: 0 10px;
+    margin: 0 10px;
+}
+.Header__nav ul li:hover {
+    box-shadow: inset 0px 4px 0px 0px rgb(90, 191, 232);
+    cursor: pointer;
+}
+.Header__login {
+    width: 160px;
+    display: flex;
+    justify-content: center;
+}
+.Header__login a {
+    font-size: 16px;
+    padding: 11px 25px;
+    border: 1px solid rgba(31, 118, 255, 1);
+    border-radius: 30px;
+    text-decoration: none;
+    color: rgba(31, 118, 255, 1);
+}
+.Header__login a:hover {
+    background-color: rgba(58, 121, 246, 0.85);
+    border-color: rgba(31, 118, 255, 1);
+    color: #ffffff;
+
 }
 /* ----------------------------------------------- */
 
