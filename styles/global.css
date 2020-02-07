@@ -1,0 +1,52 @@
+/* ----------------ESTILOS GLOBALES--------------- */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+/* ----------------------------------------------- */
+
+/* ----------------SECCION PRINCIPAL--------------- */
+.Slider {
+    width: 100%;
+    height: 956px;
+    position: relative;
+    background-image: url(https://static.wixstatic.com/media/028786_693c591fde1040608b6014d7b26c5d6a~mv2.jpg/v1/fill/w_1905,h_956,al_c,q_85,usm_0.66_1.00_0.01/028786_693c591fde1040608b6014d7b26c5d6a~mv2.webp);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.Slider__description {
+    width: 760px;
+    margin-top: 225px;
+}
+.Slider__description h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 54px;
+    text-align: center;
+    color: #ffffff;
+}
+.Slider__description--link {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+/* .Slider img {
+    height: auto;
+    object-fit: cover;
+    vertical-align: baseline;
+} */
+.Slider__description a {
+    padding: 16px 38px;
+    border-radius: 30px;
+    border: 0;
+    background-color: #ffffff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #3182C8;
+}
+/* ------------------------------------------------------ */
