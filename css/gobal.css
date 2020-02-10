@@ -30,12 +30,14 @@
     display: flex;
     list-style: none;
     font-size: 16px;
-    font-family: 'Roboto', sans-serif;
 }
 .Header__nav ul li {
     line-height: 77px;
     padding: 0 10px;
     margin: 0 10px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 .Header__nav ul li:hover {
     box-shadow: inset 0px 4px 0px 0px rgb(90, 191, 232);
