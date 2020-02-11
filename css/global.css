@@ -107,3 +107,27 @@
     color: #3182C8;
 }
 /* ------------------------------------------------------ */
+
+/* ----------------ESTILOS GLOBALES--------------- */
+@media screen and (max-width: 1024px) {
+    .Header__nav ul li {
+        padding: 0 7px;
+        margin: 0 7px;
+        font-size: 14px;
+    }
+    .Header__logo figure {
+        width: 70px;
+        height: 26px;
+    }
+    .Header__login a {
+        font-size: 14px;
+        padding: 9px 22px;
+    }
+    .Header__logo {
+        width: 110px;
+    }
+    .Header__login {
+        width: 140px;
+    }
+}
+/* ----------------------------------------------- */
