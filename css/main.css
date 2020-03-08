@@ -1,6 +1,7 @@
 footer{
     display: flex;
     justify-content:center;
+    flex-wrap: wrap;
     align-items: flex-start;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 130px;
