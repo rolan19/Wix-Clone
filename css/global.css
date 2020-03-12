@@ -192,4 +192,15 @@
     .Slider__description h1 {
         font-size: 30px;
     }
+    .separador {
+        margin: 10px 0;
+        flex-wrap: wrap;
+        padding: 20px 0;
+        height: auto;
+    }
+    .palabra {
+        margin: 0;
+        padding: 10px 0 4px;
+        border: 0;
+    }
 }
